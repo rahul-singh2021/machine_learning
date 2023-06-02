@@ -39,7 +39,8 @@ git clone https://github.com/rahul-singh21/machine_learning.git
     3000,565000
     3200,610000
     3600,680000
-    4000,725000
+    4000,725000    
+    
 
 ## Results
 
@@ -48,3 +49,7 @@ The script performs the following steps:
 1. Loads the dataset from the `homeprices.csv` file.
 2. Visualizes the data using a scatter plot.
 3. Trains a linear regression model on the data
+
+##graph
+
+  ![image](https://github.com/rahul-singh2021/machine_learning/assets/95570957/8a2d9ed6-219e-490e-88d1-bae0f9ee29f0)
