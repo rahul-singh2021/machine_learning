@@ -16,3 +16,35 @@ To facilitate the learning and experimentation process, we have included a colle
 Contributing
 We welcome contributions to this repository! If you would like to contribute your own machine learning projects, algorithms, or data sets, please follow the guidelines outlined in the CONTRIBUTING.md file. We appreciate your contributions and the opportunity to learn from each other.
 
+
+# 1:linear regression 
+
+This repository contains code for predicting home prices based on the area of the house using linear regression. It utilizes the `numpy`, `pandas`, `matplotlib`, and `scikit-learn` libraries in Python.
+
+## Dataset
+
+The `homeprices.csv` file contains the dataset used for training and testing the linear regression model. It consists of two columns: "area" (the area of the house in square feet) and "price" (the corresponding price of the house in dollars).
+
+## Getting Started
+
+To run the code locally, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/rahul-singh21/machine_learning.git
+
+## homeprices.csv
+    area,price
+    2600,550000
+    3000,565000
+    3200,610000
+    3600,680000
+    4000,725000
+
+## Results
+
+The script performs the following steps:
+
+1. Loads the dataset from the `homeprices.csv` file.
+2. Visualizes the data using a scatter plot.
+3. Trains a linear regression model on the data
