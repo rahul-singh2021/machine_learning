@@ -55,33 +55,6 @@ The script performs the following steps:
   ![image](https://github.com/rahul-singh2021/machine_learning/assets/95570957/8a2d9ed6-219e-490e-88d1-bae0f9ee29f0)
 
 
-# 2:Gradient Descent Algorithm
-This is a Python implementation of the Gradient Descent algorithm. It calculates the optimal values for the slope (w) and y-intercept (b) of a linear regression model using gradient descent optimization.
-
-Requirements
-To run this code, you need to have the following:
-
-Python 3.x
-NumPy library
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/gradient-descent.git
-Change to the project directory:
-
-bash
-Copy code
-cd gradient-descent
-Run the script:
-
-Copy code
-python gradient_descent.py
-Usage
-The gradient_descent function in gradient_descent.py takes two NumPy arrays, x and y, as input. It performs gradient descent optimization to find the best values for the slope and y-intercept of a linear regression model that fits the given data.
-
-Example usage:
 
 python
 Copy code
@@ -108,3 +81,23 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 Contributing
 If you have any suggestions, improvements, or bug fixes, please feel free to contribute! You can open an issue or submit a pull request.
+
+
+# 2:Gradient Descent 
+
+This is an implementation of the gradient descent algorithm using numpy. It calculates the best-fit line for a given set of input data points.
+
+## Usage
+
+The `gradient_descent` function takes two parameters, `x` and `y`, representing the input data points and their corresponding target values.
+
+```python
+import numpy as np
+
+def gradient_descent(x, y):
+    # Function code here
+
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([5, 7, 9, 11, 13])
+
+gradient_descent(x, y)
