@@ -53,3 +53,58 @@ The script performs the following steps:
 ##graph
 
   ![image](https://github.com/rahul-singh2021/machine_learning/assets/95570957/8a2d9ed6-219e-490e-88d1-bae0f9ee29f0)
+
+
+# 2:Gradient Descent Algorithm
+This is a Python implementation of the Gradient Descent algorithm. It calculates the optimal values for the slope (w) and y-intercept (b) of a linear regression model using gradient descent optimization.
+
+Requirements
+To run this code, you need to have the following:
+
+Python 3.x
+NumPy library
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/gradient-descent.git
+Change to the project directory:
+
+bash
+Copy code
+cd gradient-descent
+Run the script:
+
+Copy code
+python gradient_descent.py
+Usage
+The gradient_descent function in gradient_descent.py takes two NumPy arrays, x and y, as input. It performs gradient descent optimization to find the best values for the slope and y-intercept of a linear regression model that fits the given data.
+
+Example usage:
+
+python
+Copy code
+import numpy as np
+from gradient_descent import gradient_descent
+
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([5, 7, 9, 11, 13])
+
+gradient_descent(x, y)
+The function will print the updated values of w (slope), b (y-intercept), and the current iteration number during the optimization process.
+
+Parameters
+The gradient_descent function has the following parameters:
+
+x (NumPy array): Input data points (independent variable).
+y (NumPy array): Output data points (dependent variable).
+iterations (int): Number of iterations for the optimization process (default: 1000).
+alpha (float): Learning rate for gradient descent (default: 0.001).
+Feel free to modify the default values of iterations and alpha as per your requirements.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contributing
+If you have any suggestions, improvements, or bug fixes, please feel free to contribute! You can open an issue or submit a pull request.
