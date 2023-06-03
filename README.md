@@ -95,7 +95,7 @@ This program demonstrates multivariate linear regression using the scikit-learn 
 - Modify the script if necessary to adapt to your dataset or analysis requirements.
 - Run the script to perform multivariate linear regression and obtain price predictions.
 
-##homeprices.csv
+## homeprices.csv
     area,bedrooms,age,price
     2600,3,20,550000
     3000,4,15,565000
