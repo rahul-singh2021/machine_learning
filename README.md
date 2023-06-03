@@ -82,8 +82,22 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Contributing
 If you have any suggestions, improvements, or bug fixes, please feel free to contribute! You can open an issue or submit a pull request.
 
+# 2:Linear Regression Multivariate
+This program demonstrates multivariate linear regression using the scikit-learn library in Python. It predicts home prices based on the area, number of bedrooms, and age of the property. The dataset used for training and prediction is loaded from a CSV file named "homeprices.csv."
+## Dependencies
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
 
-# 2:Gradient Descent 
+## Usage
+- Ensure that the "homeprices.csv" file is in the same directory as the script.
+- Modify the script if necessary to adapt to your dataset or analysis requirements.
+- Run the script to perform multivariate linear regression and obtain price predictions.
+
+
+
+# 3:Gradient Descent 
 
 This is an implementation of the gradient descent algorithm using numpy. It calculates the best-fit line for a given set of input data points.
 
