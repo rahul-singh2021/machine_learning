@@ -123,3 +123,52 @@ x = np.array([1, 2, 3, 4, 5])
 y = np.array([5, 7, 9, 11, 13])
 
 gradient_descent(x, y)
+
+
+# Model Saving with Pickle
+
+This program demonstrates how to save a machine learning model using the Python `pickle` library. The saved model can be later loaded and used for making predictions.
+
+## Prerequisites
+
+Before running this program, make sure you have the following dependencies installed:
+
+- pandas
+- numpy
+- scikit-learn
+
+You can install these dependencies using `pip`:
+    
+ ## Usage
+
+1. Clone the repository:
+
+git clone https://github.com/rahul-singh21/machine_learning.git
+    
+2. Navigate to the project directory:
+
+cd your-repo
+
+markdown
+Copy code
+
+3. Place the dataset file `homeprices.csv` in the project directory.
+
+4. Run the program:
+
+python save_model.py
+
+csharp
+Copy code
+
+This will train a linear regression model using the data from `homeprices.csv` and save it as `model_pickle` using pickle.
+
+5. Loading the saved model:
+
+You can load the saved model using the following code:
+
+```python
+import pickle
+
+with open('model_pickle', 'rb') as file:
+    model = pickle.load(file)    
