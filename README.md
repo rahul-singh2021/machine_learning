@@ -145,3 +145,23 @@ You can install these dependencies using `pip`:
 
 git clone https://github.com/rahul-singh21/machine_learning.git
     
+    
+## 5:Model Saving with joblib
+
+     This program demonstrates how to save a machine learning model using the Python `joblib` library. The saved model can be later          loaded and used for making predictions.
+
+## Prerequisites
+
+Before running this program, make sure you have the following dependencies installed:
+
+- pandas
+- numpy
+- scikit-learn
+
+You can install these dependencies using `pip`:
+    
+ ## Usage
+
+1. Clone the repository:
+
+git clone https://github.com/rahul-singh21/machine_learning.git    
