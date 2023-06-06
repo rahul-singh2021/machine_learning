@@ -112,8 +112,6 @@ This is an implementation of the gradient descent algorithm using numpy. It calc
 ## Usage
 
 The `gradient_descent` function takes two parameters, `x` and `y`, representing the input data points and their corresponding target values.
-
-```python
 import numpy as np
 
 def gradient_descent(x, y):
@@ -125,30 +123,9 @@ y = np.array([5, 7, 9, 11, 13])
 gradient_descent(x, y)
 
 
-## 4:Model Saving with Pickle
+# 4:Model Saving with Pickle
 
-     This program demonstrates how to save a machine learning model using the Python `pickle` library. The saved model can be later          loaded and used for making predictions.
-
-## Prerequisites
-
-Before running this program, make sure you have the following dependencies installed:
-
-- pandas
-- numpy
-- scikit-learn
-
-You can install these dependencies using `pip`:
-    
- ## Usage
-
-1. Clone the repository:
-
-git clone https://github.com/rahul-singh21/machine_learning.git
-    
-    
-## 5:Model Saving with joblib
-
-     This program demonstrates how to save a machine learning model using the Python `joblib` library. The saved model can be later          loaded and used for making predictions.
+This program demonstrates how to save a machine learning model using the Python `pickle` library. The saved model can be later loaded and used for making predictions.
 
 ## Prerequisites
 
@@ -159,9 +136,8 @@ Before running this program, make sure you have the following dependencies insta
 - scikit-learn
 
 You can install these dependencies using `pip`:
-    
- ## Usage
+## Usage
 
 1. Clone the repository:
-
-git clone https://github.com/rahul-singh21/machine_learning.git    
+  https://github.com/rahul-singh21/machine_learning.git
+      
