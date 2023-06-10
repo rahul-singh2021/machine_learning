@@ -178,10 +178,40 @@ pip install numpy matplotlib
 perl
 Copy code
 
-## Usage
+  ## Usage
 
-To use the `svm_sgd_plot` function, pass the input data `X` and labels `Y`. It will return the learned weights of the SVM model. Additionally, it will plot the misclassification errors over epochs.
+   To use the `svm_sgd_plot` function, pass the input data `X` and labels `Y`. It will return the learned weights of the SVM model.          Additionally, it will plot the misclassification errors over epochs.
 
-```python
-w = svm_sgd_plot(X, Y)  
+    ```python
+      w = svm_sgd_plot(X, Y)  
       
+
+
+# 7:Logistic Regression with Newton Method
+
+This program demonstrates logistic regression using the Newton method for parameter estimation. It generates a dataset and fits a logistic regression model using the Newton-Raphson algorithm to estimate the coefficients.
+
+## Purpose
+
+The purpose of this program is to showcase the implementation of logistic regression with the Newton method. Logistic regression is a popular classification algorithm used to model the relationship between a dependent variable and one or more independent variables. The Newton method is an iterative optimization algorithm used to estimate the parameters of the logistic regression model.
+
+## Key Features
+
+- Generates a synthetic dataset with specified parameters
+- Fits a logistic regression model using the Newton method
+- Demonstrates the calculation of the sigmoid function
+- Uses the patsy library for formula specification
+Provide instructions for running the program and installing any necessary dependencies:
+
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Required libraries: numpy, pandas, patsy
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/rahul-singh21/machine_learning.git
