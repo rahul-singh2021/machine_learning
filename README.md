@@ -159,4 +159,29 @@ You can install these dependencies using `pip`:
 
 1. Clone the repository:
   https://github.com/rahul-singh21/machine_learning.git
+  
+  
+# 6:stochastic gradient descent
+
+This repository contains an implementation of SVM (Support Vector Machine) using SGD (Stochastic Gradient Descent) for classification. It includes a function called `svm_sgd_plot` that trains an SVM model on the given input data `X` and corresponding labels `Y`. The function updates the model's weights using SGD for a specified number of epochs.
+
+## Requirements
+
+The following dependencies are required to run the code:
+- NumPy
+- Matplotlib
+
+Install them using the following command:
+
+pip install numpy matplotlib
+
+perl
+Copy code
+
+## Usage
+
+To use the `svm_sgd_plot` function, pass the input data `X` and labels `Y`. It will return the learned weights of the SVM model. Additionally, it will plot the misclassification errors over epochs.
+
+```python
+w = svm_sgd_plot(X, Y)  
       
