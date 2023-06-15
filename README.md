@@ -261,8 +261,8 @@ This program demonstrates how to use One-Hot Encoding in machine learning using 
 
     Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
     
-    ```bash
-    pip install pandas scikit-learn
+        ```bash
+        pip install pandas scikit-learn
     
     ## homeprices.csv
     
