@@ -213,5 +213,20 @@ Provide instructions for running the program and installing any necessary depend
 
 ### Installation
 
+# 8:dummy variable
+
+This program demonstrates the use of dummy variables in a linear regression model for predicting home prices.
+
+## Requirements
+
+- Python 3.x
+- pandas
+- scikit-learn
+
+## Installation
+
 1. Clone the repository:
-   git clone https://github.com/rahul-singh21/machine_learning.git
+
+```bash
+git clone https://github.com/rahul-singh21/machine_learning.git
+
