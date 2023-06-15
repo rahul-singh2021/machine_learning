@@ -246,3 +246,37 @@ robinsville     ,2600  ,575000
 robinsville     ,2900  ,600000
 robinsville     ,3100  ,620000
 robinsville     ,3600  ,695000
+
+
+# 9:One-Hot-Encoder
+
+This program demonstrates how to use One-Hot Encoding in machine learning using the `LabelEncoder`, `OneHotEncoder`, and `ColumnTransformer` classes from the scikit-learn library.
+
+## Dependencies
+
+- pandas
+- scikit-learn
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
+
+```bash
+pip install pandas scikit-learn
+
+## homeprices.csv
+
+town            ,area  ,price
+monroe township ,2600  ,550000
+monroe township ,3000  ,565000
+monroe township ,3200  ,610000
+monroe township ,3600  ,680000
+monroe township ,4000  ,725000
+west windsor    ,2600  ,585000
+west windsor    ,2800  ,615000
+west windsor    ,3300  ,650000
+west windsor    ,3600  ,710000
+robinsville     ,2600  ,575000
+robinsville     ,2900  ,600000
+robinsville     ,3100  ,620000
+robinsville     ,3600  ,695000
