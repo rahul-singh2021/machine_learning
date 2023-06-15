@@ -374,3 +374,38 @@ This program demonstrates the use of logistic regression to predict insurance pu
         50,1
         54,1
         23,0
+        
+# 12:Handwritten Digit Classification
+  This program uses logistic regression to classify handwritten digits from the MNIST dataset. It demonstrates how to load the dataset,     split it into training and testing sets, train a logistic regression model, and make predictions.
+
+## Prerequisites
+   To run this program, you need to have the following dependencies installed:
+
+   Python 3
+   Matplotlib
+   Scikit-learn
+   You can install the required packages by running the following command:
+
+   pip install matplotlib scikit-learn
+## Usage
+   Clone the repository or download the program file.
+   Open a terminal or command prompt and navigate to the program directory.
+   Run the following command to execute the program:
+   python digit_classification.py
+   
+## Program Description
+   The program starts by importing the necessary libraries: matplotlib.pyplot, sklearn.datasets.load_digits,                  sklearn.model_selection.train_test_split, and sklearn.linear_model.LogisticRegression.
+
+   The MNIST digit dataset is loaded using the load_digits function from sklearn.datasets. This dataset contains grayscale images of  handwritten digits and their corresponding labels.
+
+   The grayscale plot is set using plt.gray().
+
+   The program prints the labels of the first five digits using digits.target[0:5].
+
+   The dataset is split into training and testing sets using train_test_split from sklearn.model_selection. The training set contains 80%  of the data, while the testing set contains 20%.
+
+   An instance of logistic regression is created using LogisticRegression from sklearn.linear_model.
+
+   The logistic regression model is trained using the training data and labels using the fit method.
+
+   The model makes predictions on the first five digits in the dataset using model.predict(digits.data[0:5]).        
