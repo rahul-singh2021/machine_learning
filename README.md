@@ -280,3 +280,39 @@ This program demonstrates how to use One-Hot Encoding in machine learning using 
         robinsville     ,2900  ,600000
         robinsville     ,3100  ,620000
         robinsville     ,3600  ,695000
+
+# 10:Train_Test_Split
+This program uses linear regression to predict car prices based on mileage and age. It demonstrates how to split the data into training and testing sets using train_test_split from the scikit-learn library and then trains a linear regression model on the training data.
+
+## Dependencies
+    pandas
+    scikit-learn
+## Usage
+    Install the required dependencies:
+
+    pip install pandas scikit-learn
+    Clone the repository:
+    git clone https://github.com/rahul-singh/machine_learning.git
+    
+## carprices.csv
+   Mileage,Age(yrs),Sell Price($)
+    69000 ,6       ,18000
+    35000 ,3       ,34000
+    57000 ,5       ,26100
+    22500 ,2       ,40000
+    46000 ,4       ,31500
+    59000 ,5       ,26750
+    52000 ,5       ,32000
+    72000 ,6       ,19300
+    91000 ,8       ,12000
+    67000 ,6       ,22000
+    83000 ,7       ,18700
+    79000 ,7       ,19500
+    59000 ,5       ,26000
+    58780 ,4       ,27500
+    82450 ,7       ,19400
+    25400 ,3       ,35000
+    28000 ,2       ,35500
+    69000 ,5       ,19700
+    87600 ,8       ,12800
+    52000 ,5       ,28200
