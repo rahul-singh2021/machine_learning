@@ -317,3 +317,60 @@ This program uses linear regression to predict car prices based on mileage and a
     69000 ,5       ,19700
     87600 ,8       ,12800
     52000 ,5       ,28200
+    
+    
+# 11:Logistic Regression
+This program demonstrates the use of logistic regression to predict insurance purchases based on age. The dataset used is stored in a CSV file called insurance_data.csv.
+
+## Dependencies
+   To run this program, the following dependencies are required:
+
+    pandas
+    scikit-learn
+    Install the dependencies using pip:
+    pip install pandas scikit-learn
+
+## Usage
+    Clone the repository or download the insurance_data.csv file.
+    Make sure the dataset file (insurance_data.csv) is placed in the same directory as the Python script.
+    Execute the Python script.
+    Program Explanation
+    Import the necessary libraries: pandas, train_test_split from sklearn.model_selection, and LogisticRegression from        sklearn.linear_model.
+    Read the insurance dataset from the CSV file using pd.read_csv.
+    Split the dataset into training and testing sets using train_test_split, where the 'age' column is the feature (x) and the 'bought_insurance' column is the target (y).
+    Create an instance of the LogisticRegression model.
+    Train the model using the training data using the fit method.
+    Predict the insurance purchases for the test data using the predict method.
+    You can use the predicted values (y_pred) for further analysis or evaluation.
+    Note: This program assumes that the CSV file contains a header row with column names.    
+
+## insurance.csv
+   ```bash
+   age,bought_insurance
+22,0
+25,0
+47,1
+52,0
+46,1
+56,1
+55,0
+60,1
+62,1
+61,1
+18,0
+28,0
+27,0
+29,0
+49,1
+55,1
+25,1
+58,1
+19,0
+18,0
+21,0
+26,0
+40,1
+45,1
+50,1
+54,1
+23,0
