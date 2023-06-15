@@ -295,6 +295,7 @@ This program uses linear regression to predict car prices based on mileage and a
     git clone https://github.com/rahul-singh/machine_learning.git
     
 ## carprices.csv
+   ```bash
    Mileage,Age(yrs),Sell Price($)
     69000 ,6       ,18000
     35000 ,3       ,34000
