@@ -227,25 +227,25 @@ This program demonstrates the use of dummy variables in a linear regression mode
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/rahul-singh21/machine_learning.git
-
-## homeprices.csv
-
-town            ,area  ,price
-monroe township ,2600  ,550000
-monroe township ,3000  ,565000
-monroe township ,3200  ,610000
-monroe township ,3600  ,680000
-monroe township ,4000  ,725000
-west windsor    ,2600  ,585000
-west windsor    ,2800  ,615000
-west windsor    ,3300  ,650000
-west windsor    ,3600  ,710000
-robinsville     ,2600  ,575000
-robinsville     ,2900  ,600000
-robinsville     ,3100  ,620000
-robinsville     ,3600  ,695000
+    ```bash
+    git clone https://github.com/rahul-singh21/machine_learning.git
+    
+    ## homeprices.csv
+    
+    town            ,area  ,price
+    monroe township ,2600  ,550000
+    monroe township ,3000  ,565000
+    monroe township ,3200  ,610000
+    monroe township ,3600  ,680000
+    monroe township ,4000  ,725000
+    west windsor    ,2600  ,585000
+    west windsor    ,2800  ,615000
+    west windsor    ,3300  ,650000
+    west windsor    ,3600  ,710000
+    robinsville     ,2600  ,575000
+    robinsville     ,2900  ,600000
+    robinsville     ,3100  ,620000
+    robinsville     ,3600  ,695000
 
 
 # 9:One-Hot-Encoder
@@ -259,24 +259,24 @@ This program demonstrates how to use One-Hot Encoding in machine learning using 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
-
-```bash
-pip install pandas scikit-learn
-
-## homeprices.csv
-
-town            ,area  ,price
-monroe township ,2600  ,550000
-monroe township ,3000  ,565000
-monroe township ,3200  ,610000
-monroe township ,3600  ,680000
-monroe township ,4000  ,725000
-west windsor    ,2600  ,585000
-west windsor    ,2800  ,615000
-west windsor    ,3300  ,650000
-west windsor    ,3600  ,710000
-robinsville     ,2600  ,575000
-robinsville     ,2900  ,600000
-robinsville     ,3100  ,620000
-robinsville     ,3600  ,695000
+    Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
+    
+    ```bash
+    pip install pandas scikit-learn
+    
+    ## homeprices.csv
+    
+    town            ,area  ,price
+    monroe township ,2600  ,550000
+    monroe township ,3000  ,565000
+    monroe township ,3200  ,610000
+    monroe township ,3600  ,680000
+    monroe township ,4000  ,725000
+    west windsor    ,2600  ,585000
+    west windsor    ,2800  ,615000
+    west windsor    ,3300  ,650000
+    west windsor    ,3600  ,710000
+    robinsville     ,2600  ,575000
+    robinsville     ,2900  ,600000
+    robinsville     ,3100  ,620000
+    robinsville     ,3600  ,695000
