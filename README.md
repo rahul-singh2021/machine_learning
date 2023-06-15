@@ -408,4 +408,41 @@ This program demonstrates the use of logistic regression to predict insurance pu
 
    The logistic regression model is trained using the training data and labels using the fit method.
 
-   The model makes predictions on the first five digits in the dataset using model.predict(digits.data[0:5]).        
+   The model makes predictions on the first five digits in the dataset using model.predict(digits.data[0:5]).  
+   
+   
+# 12:Decision Tree Classifier
+
+This program implements a decision tree classifier using Python's pandas and scikit-learn libraries.
+
+## Prerequisites
+
+- Python (version X.X)
+- pandas (version X.X)
+- scikit-learn (version X.X)
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/your-repository.git   
+## salaries.csv
+    
+    company,job,degree,salary_more_then_100k
+abc pharma,business manager,bachelors,0
+google,computer programmer,bachelors,0
+abc pharma,computer programmer,bachelors,0
+google,sales executive,bachelors,0
+google,sales executive,masters,0
+abc pharma,sales executive,masters,0
+google,business manager,bachelors,1
+google,business manager,masters,1
+abc pharma,business manager,masters,1
+facebook,business manager,bachelors,1
+facebook,business manager,masters,1
+google,computer programmer,masters,1
+facebook,computer programmer,bachelors,1
+facebook,computer programmer,masters,1
+facebook,sales executive,bachelors,1
+facebook,sales executive,masters,1
