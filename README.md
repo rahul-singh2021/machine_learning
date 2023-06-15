@@ -429,20 +429,20 @@ This program implements a decision tree classifier using Python's pandas and sci
     git clone https://github.com/your-username/your-repository.git   
 ## salaries.csv
     
-    company,job,degree,salary_more_then_100k
-    abc pharma,business manager,bachelors,0
-    google,computer programmer,bachelors,0
-    abc pharma,computer programmer,bachelors,0
-    google,sales executive,bachelors,0
-    google,sales executive,masters,0
-    abc pharma,sales executive,masters,0
-    google,business manager,bachelors,1
-    google,business manager,masters,1
-    abc pharma,business manager,masters,1
-    facebook,business manager,bachelors,1
-    facebook,business manager,masters,1
-    google,computer programmer,masters,1
-    facebook,computer programmer,bachelors,1
-    facebook,computer programmer,masters,1
-    facebook,sales executive,bachelors,1
-    facebook,sales executive,masters,1
+    company     ,job                   ,degree      ,salary_more_then_100k
+    abc pharma  ,business manager      ,bachelors   ,0
+    google      ,computer programmer   ,bachelors   ,0
+    abc pharma  ,computer programmer   ,bachelors   ,0
+    google      ,sales executive       ,bachelors   ,0
+    google      ,sales executive       ,masters     ,0
+    abc pharma  ,sales executive       ,masters     ,0
+    google      ,business manager      ,bachelors   ,1
+    google      ,business manager      ,masters     ,1
+    abc pharma  ,business manager      ,masters     ,1
+    facebook    ,business manager      ,bachelors   ,1
+    facebook    ,business manager      ,masters     ,1
+    google      ,computer programmer   ,masters     ,1
+    facebook    ,computer programmer   ,bachelors   ,1
+    facebook    ,computer programmer   ,masters     ,1
+    facebook    ,sales executive       ,bachelors   ,1
+    facebook    ,sales executive       ,masters     ,1
