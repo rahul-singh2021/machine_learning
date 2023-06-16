@@ -446,3 +446,46 @@ This program implements a decision tree classifier using Python's pandas and sci
     facebook    ,computer programmer   ,masters     ,1
     facebook    ,sales executive       ,bachelors   ,1
     facebook    ,sales executive       ,masters     ,1
+
+
+# 13Iris Classification using Support Vector Machines (SVM)
+
+This program demonstrates the classification of Iris flowers using Support Vector Machines (SVM) algorithm. It utilizes the Iris dataset from the scikit-learn library.
+
+## Dataset Description
+
+The Iris dataset contains measurements of sepal length, sepal width, petal length, and petal width of three different Iris flower species: setosa, versicolor, and virginica.
+
+## Installation
+
+To run this program, you need to have the following dependencies installed:
+
+- pandas
+- scikit-learn
+- matplotlib
+
+You can install these dependencies using pip:
+
+## Program Usage
+
+1. The program loads the Iris dataset using the `load_iris` function from scikit-learn.
+
+2. It creates a pandas DataFrame to store the dataset and adds column names.
+
+3. The target variable is added to the DataFrame, which represents the species of each Iris flower.
+
+4. The DataFrame is filtered to create separate DataFrames for each species (setosa, versicolor, and virginica).
+
+5. The flower names are added to the DataFrame using the `apply` method.
+
+6. The program visualizes the sepal length and width as well as the petal length and width using scatter plots.
+
+7. The dataset is split into training and testing sets using the `train_test_split` function from scikit-learn.
+
+8. A Support Vector Machines (SVM) model is created and trained using the training data.
+
+9. The model predicts the species of an unseen sample.
+
+## Result
+
+The SVM model successfully predicts the species of an unseen sample.
