@@ -489,3 +489,25 @@ You can install these dependencies using pip:
 ## Result
 
 The SVM model successfully predicts the species of an unseen sample.
+
+
+# 14:Digit Classification using Random Forest
+
+This program uses the Random Forest algorithm to classify digits from the sklearn digits dataset.
+
+## Requirements
+
+- Python 3.x
+- pandas
+- scikit-learn
+- matplotlib
+
+## Usage
+
+1. Install the required dependencies by running the following command:
+
+   ```shell
+   pip install pandas scikit-learn matplotlib
+
+
+git clone < git clone https://github.com/your-username/your-repository.git>
