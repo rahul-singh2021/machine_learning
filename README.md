@@ -510,4 +510,93 @@ This program uses the Random Forest algorithm to classify digits from the sklear
    pip install pandas scikit-learn matplotlib
 
 
- git clone https://github.com/your-username/your-repository.git
+     git clone https://github.com/your-username/your-repository.git
+
+# 15:K-Means Clustering Program
+    This program demonstrates the implementation of K-Means clustering using the scikit-learn library in Python. It uses the K-Means     
+    algorithm to cluster a dataset based on age and income.
+
+## Prerequisites
+   To run this program, you need the following:
+
+    Python (version 3.6 or higher)
+    Jupyter Notebook or any Python IDE
+    Installation
+    Clone the repository or download the income.csv file to your local machine.
+
+    Install the required libraries by running the following command:
+
+    pip install scikit-learn pandas matplotlib
+## Usage
+    Open the Jupyter Notebook or your Python IDE.
+
+    Import the required libraries and load the dataset:
+
+
+    from sklearn.cluster import KMeans
+    import pandas as pd
+    from sklearn.preprocessing import MinMaxScaler
+    import matplotlib.pyplot as plt
+    %matplotlib inline
+
+    df = pd.read_csv('income.csv')
+    Visualize the data by plotting the scatter plot:
+
+    plt.scatter(df['Age'], df['Income($)'])
+    plt.xlabel('Age')
+    plt.ylabel('Income($)')
+    plt.show()
+    Perform K-Means clustering on the dataset:
+
+   
+    km = KMeans(n_clusters=3)
+    y_predicted = km.fit_predict(df[['Age', 'Income($)']])
+    df['cluster'] = y_predicted
+    Plot the clustered data:
+    
+    
+    df1 = df[df.cluster == 0]
+    df2 = df[df.cluster == 1]
+    df3 = df[df.cluster == 2]
+    
+    plt.scatter(df1['Age'], df1['Income($)'], color='green')
+    plt.scatter(df2['Age'], df2['Income($)'], color='blue')
+    plt.scatter(df3['Age'], df3['Income($)'], color='black')
+    plt.scatter(km.cluster_centers_[:, 0], km.cluster_centers_[:, 1], color='purple', marker='*', label='centroid')
+    
+    plt.xlabel('Age')
+    plt.ylabel('Income($)')
+    plt.legend()
+    plt.show()
+    Perform feature scaling on the dataset:
+    
+   
+    scaler = MinMaxScaler()
+    scaler.fit(df[['Income($)']])
+    df['Income($)'] = scaler.transform(df[['Income($)']])
+    
+    scaler.fit(df[['Age']])
+    df['Age'] = scaler.transform(df[['Age']])
+    Repeat the K-Means clustering with the scaled dataset:
+    
+   
+    km = KMeans(n_clusters=3)
+    y_predicted = km.fit_predict(df[['Age', 'Income($)']])
+    df['cluster'] = y_predicted
+    Plot the clustered data with the scaled features:
+    
+    
+    df1 = df[df.cluster == 0]
+    df2 = df[df.cluster == 1]
+    df3 = df[df.cluster == 2]
+    
+    plt.scatter(df1['Age'], df1['Income($)'], color='green')
+    plt.scatter(df2['Age'], df2['Income($)'], color='blue')
+    plt.scatter(df3['Age'], df3['Income($)'], color='black')
+    plt.scatter(km.cluster_centers_[:, 0], km.cluster_centers_[:, 1], color='purple', marker='*', label='centroid')
+    
+    plt.xlabel('Age')
+    plt.ylabel('Income($)')
+    plt.legend()
+    plt.show()
+    ``
