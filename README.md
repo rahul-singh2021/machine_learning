@@ -600,3 +600,55 @@ This program uses the Random Forest algorithm to classify digits from the sklear
     plt.legend()
     plt.show()
 
+# 16:Naive Bayes Classifier for Titanic Survival Prediction
+     This program demonstrates the use of a Naive Bayes classifier to predict survival outcomes for passengers aboard the Titanic. It 
+     utilizes the pandas library to read a CSV file containing the Titanic dataset and performs various operations on the data before 
+     training and testing the classifier.
+
+## Prerequisites
+    Before running the program, make sure you have the following dependencies installed:
+
+    pandas
+    scikit-learn
+    You can install these dependencies using pip:
+
+
+    pip install pandas scikit-learn
+## Usage
+    Clone the repository or download the source code files.
+
+    Place the titanic.csv file in the same directory as the program.
+
+    Run the program using a Python interpreter:
+
+    python titanic_classifier.py
+    The program will read the CSV file, remove unwanted columns, create dummy variables for the "Sex" column, fill missing values in the 
+    "Age" column with the mean, split the dataset into training and test sets, train a Naive Bayes classifier, and predict survival 
+    outcomes for the test set.
+
+    The program will output the predicted survival outcomes and the accuracy score of the classifier.
+
+## Description
+    The program performs the following steps:
+
+    Imports the required libraries, including pandas and scikit-learn.
+
+    Reads the titanic.csv file using pandas and displays the initial rows of the dataset.
+
+    Removes unwanted columns (PassengerId, Name, SibSp, Parch, Ticket, Cabin, Embarked) from the dataset.
+
+    Creates dummy variables for the Sex column using one-hot encoding and drops the original Sex column.
+
+    Fills missing values in the Age column with the mean value of the column.
+
+    Splits the dataset into training and test sets using the train_test_split function from scikit-learn.
+
+    Trains a Gaussian Naive Bayes classifier using the training set.
+
+    Predicts survival outcomes for the test set using the trained classifier.
+
+    Compares the predicted outcomes with the actual outcomes (stored in the Survived column of the test set).
+
+    Calculates and displays the accuracy score of the classifier.
+    
+
