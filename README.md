@@ -599,4 +599,4 @@ This program uses the Random Forest algorithm to classify digits from the sklear
     plt.ylabel('Income($)')
     plt.legend()
     plt.show()
-    ``
+
