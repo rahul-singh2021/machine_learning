@@ -510,4 +510,4 @@ This program uses the Random Forest algorithm to classify digits from the sklear
    pip install pandas scikit-learn matplotlib
 
 
-git clone < git clone https://github.com/your-username/your-repository.git>
+ git clone https://github.com/your-username/your-repository.git
