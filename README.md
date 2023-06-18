@@ -679,8 +679,9 @@ This program uses the Random Forest algorithm to classify digits from the sklear
      
     
 # 18:Outlier Removal using Standard Deviation
-
     This program demonstrates how to remove outliers from a dataset using the standard deviation method. It utilizes Python and various 
+    libraries such as Pandas, NumPy, and Matplotlib to perform the outlier removal and visualize the results.This program demonstrates 
+    how to remove outliers from a dataset using the standard deviation method. It utilizes Python and various 
     libraries such as Pandas, NumPy, and Matplotlib to perform the outlier removal and visualize the results.
 
 ## Installation
