@@ -678,3 +678,25 @@ This program uses the Random Forest algorithm to classify digits from the sklear
     The shape of the new DataFrame (df2) is printed to display the number of rows and columns after removing outliers.
      
     
+# 18:Outlier Removal using Standard Deviation
+
+    This program demonstrates how to remove outliers from a dataset using the standard deviation method. It utilizes Python and various 
+    libraries such as Pandas, NumPy, and Matplotlib to perform the outlier removal and visualize the results.
+
+## Installation
+
+    1. Clone the repository:
+    git clone https://github.com/rahul-singh21/machine_learning.git
+
+    2. Install the required dependencies:
+    pip install pandas numpy matplotlib scipy
+
+## Usage
+
+    1. Ensure you have the dataset file named `heights.csv` in the same directory as the program.
+
+    2. Run the program:    
+      python outlier_removal.py
+
+    3. The program will read the dataset, plot a histogram of the heights, and remove outliers using the standard deviation method.
+    
