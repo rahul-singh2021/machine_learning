@@ -701,3 +701,45 @@ This program uses the Random Forest algorithm to classify digits from the sklear
 
     3. The program will read the dataset, plot a histogram of the heights, and remove outliers using the standard deviation method.
     
+
+# 19:Outlier Removal using IQR (Interquartile Range)
+    This program utilizes the concept of Interquartile Range (IQR) to identify and remove outliers from a dataset. The IQR is a 
+    statistical measure that represents the range between the first quartile (Q1) and the third quartile (Q3) of a dataset.
+
+## Requirements
+    Python 3.x
+    pandas library    
+    Installation
+    Make sure you have Python installed on your system. You can download it from the official Python website:             
+    https://www.python.org/downloads/
+
+    Install the pandas library by running the following command in your terminal or command prompt:
+
+    pip install pandas
+## Usage
+    Import the required libraries:
+
+        import pandas as pd
+        Read the dataset into a pandas DataFrame. Replace "/content/heights.csv" with the path to your dataset file:
+
+            name     ,height
+            mohan    ,1.2
+            maria    ,2.3
+            sakib    ,4.9
+            tao      ,5.1
+            virat    ,5.2
+            khusbu   ,5.4
+            dmitry   ,5.5
+            selena   ,5.5
+            john     ,5.6
+            imran    ,5.6
+            jose     ,5.8
+            deepika  ,5.9
+            yoseph   ,6
+            binod    ,6.1
+            gulshan  ,6.2
+            johnson  ,6.5
+            donald   ,7.1
+            aamir    ,14.5
+            ken      ,23.2
+            Liu      ,40.2
