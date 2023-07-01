@@ -743,3 +743,34 @@ This program uses the Random Forest algorithm to classify digits from the sklear
             aamir    ,14.5
             ken      ,23.2
             Liu      ,40.2
+
+
+# 20:YOLOv8 Object Detection Program
+
+    This program demonstrates object detection using the YOLOv8 model with the Ultralytics library.
+
+## Requirements
+
+    - NVIDIA GPU with CUDA support (Tesla T4 in this example)
+    - Python 3.10.12
+    - torch 2.0.1+cu118
+    - CUDA 12.0
+
+## Installation
+
+    1. Clone the repository:
+
+    git clone <git clone https://github.com/rahul-singh21/machine_learning.git>
+    
+    2. Install the required dependencies:
+
+    pip install ultralytics==8.0.20
+
+## Usage
+
+1. Run the program:
+
+    python program.py
+
+    The program will download the YOLOv8 model, perform object detection on an example image, and display the results.
+
